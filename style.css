@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	justify-content: space-around;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 300px;
+}
+
+button {
+	width: 100px;
+}
+
+label {
+	margin-top: 20px;
+}
+
+.buttons {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.text {
+	width: 300px;
+	margin-top: 100px;
+	/*visibility: hidden;*/
+}
+
+.visible {
+	visibility: visible;
+}
+
